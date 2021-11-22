@@ -7,7 +7,7 @@
 }
 
 .ac-game-settings-login{
-    height: 41vh;
+    height: 44vh;
     width: 20vw;
     position: relative;
     top: 50%;
@@ -38,6 +38,11 @@
 .ac-game-settings-submit {
     display: block;
     height:7vh;
+}
+
+.ac-game-settings-acwing {
+    display: block;
+    height: 7vh;
 }
 
 .ac-game-settings-item {
@@ -83,8 +88,24 @@
     cursor: pointer;
 }
 
+.ac-game-settings-acwing > img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    display: block;
+}
+
+.ac-game-settings-acwing > div {
+    color: white;
+    font-size: 1.5vh;
+    text-align: center;
+    display: block;
+}
+
 .ac-game-settings-register{
-    height: 49vh;
+    height: 53vh;
     width: 20vw;
     position: relative;
     top: 50%;

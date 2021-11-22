@@ -473,13 +473,56 @@ class Settings{
             </div>
         </div>
         <div class="ac-game-settings-error-messages">
-            用户名密码错误
         </div>
         <div class="ac-game-settings-option">
             注册
         </div>
+        <br>
+        <div class="ac-game-settings-acwing">
+            <img width="25" src="http://119.91.23.137:8000/static/image/settings/acwing_logo.png">
+            <br>
+            <div>
+                QQ一键登录
+            </div>
+        </div>
     </div>
     <div class="ac-game-settings-register">
+        <div class="ac-game-settings-title">
+            注册
+        </div>
+        <div class="ac-game-settings-username">
+            <div class="ac-game-settings-item">
+                <input type="text" placeholder="用户名">
+            </div>
+        </div>
+        <div class="ac-game-settings-password ac-game-settings-password-first">
+            <div class="ac-game-settings-item">
+                <input type="password" placeholder="密码">
+            </div>
+        </div>
+        <div class="ac-game-settings-password ac-game-settings-password-second">
+            <div class="ac-game-settings-item">
+                <input type="password" placeholder="确认密码">
+            </div>
+         </div>
+         <div class="ac-game-settings-submit">
+            <div class="ac-game-settings-item">
+                <button>注册</button>
+            </div>
+         </div>
+         <div class="ac-game-settings-error-message">
+         </div>
+         <div class="ac-game-settings-option">
+            登录
+         </div>
+         <br>
+         <div class="ac-game-settings-acwing">
+            <img width="25" src="http://119.91.23.137:8000/static/image/settings/acwing_logo.png">
+            <br>
+            <div>
+                QQ一键登录
+            </div>
+         </div>
     </div>
 </div>
 `);
@@ -528,7 +571,7 @@ class Settings{
                     outer.hide();
                     outer.root.menu.show();
                 }else{
-                    outer.login();
+                    outer.register();
                 }
             }
         });
